@@ -30,7 +30,7 @@
 | RE-GCN | SIGIR21 | [paper](https://dl.acm.org/doi/10.1145/3404835.3462963) | [code](https://github.com/Lee-zix/RE-GCN) | ICEWS14, ICEWS18, ICEWS05-15, GDELT(2018.01), WIKI, YAGO | Link, Event type |
 | TLogic | AAAI22 | [paper](https://www.aaai.org/AAAI22Papers/AAAI-3760.LiuY.pdf) | [code](https://github.com/liu-yushan/tlogic)
 | TARGCN | ACL22 ARR | [paper](https://arxiv.org/abs/2112.07791) | - | | |
-| CEN | ACL22 Short | [paper](https://aclanthology.org/2022.acl-short.32/) | [code](https://github.com/lee-zix/cen) |
+| CEN | ACL22 Short | [paper](https://aclanthology.org/2022.acl-short.32/) | [code](https://github.com/lee-zix/cen) | ICEWS14, ICEWS18, WIKI | Link (online/ offline) |
 
 - **Survey**
 
