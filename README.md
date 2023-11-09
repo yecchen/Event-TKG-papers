@@ -66,8 +66,9 @@
         - DyRep
     * Use ODE (Neural Ordinary Defferential Equation)
         - TANGO
-2. Aggregation + RNN Encoder -> ***Link** prediction*
+2. Graph Propagation + RNN Encoder -> ***Link** prediction*
     * RE-NET
+    * RE-GCN (evolution for entity & relation embedding)
     * Evo-KG (separately design **time** prediction)
 3. Retrieve related hostorical facts -> ***Link** prediction, **Interpretability**, **Inductive inference***
     * triplet facts
@@ -77,9 +78,7 @@
         - TITer
     * subgraph
         - xERTE
-4. Enhance entity & **relation** representation first -> ***Link** and **Relation** prediction*
-    * RE-GCN (evolution for entity & relation embedding)
+4. Enrich quadruple-level embedding with textual data
     * Glean (use word graph from texual data to enrich entity & relation embedding)
-5. Enrich quadruple-level embedding with textual data
     * CMF (fuse multi-level contextual information into relation embedding)
     * ECOLA (tranformer-based fusion for text & quadruple)
