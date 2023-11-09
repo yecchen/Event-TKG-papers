@@ -60,17 +60,17 @@
 | One-shot | MOST | arXiv 22.05 | [paper](https://arxiv.org/abs/2205.10621) | - | new but NA
 
 ### **General Review for Current Work**
-1. Model continuous event time -> *can do both **Link** and **Time** prediction*
+1. Model continuous event time -> *can do both **Obejct** and **Time** prediction*
     * Use Temporal Point Process (TPP)
         - Know-Evolve
         - DyRep
     * Use ODE (Neural Ordinary Defferential Equation)
         - TANGO
-2. Graph Propagation + RNN Encoder -> ***Link** prediction*
+2. Graph Propagation + RNN Encoder -> ***Object** and **Relation** prediction*
     * RE-NET
     * RE-GCN (evolution for entity & relation embedding)
     * Evo-KG (separately design **time** prediction)
-3. Retrieve related hostorical facts -> ***Link** prediction, **Interpretability**, **Inductive inference***
+3. Retrieve related hostorical facts -> ***Object** prediction, **Interpretability**, **Inductive inference***
     * triplet facts
         - CyGNet
     * Use RL to search path (1-2 hop evidence chain)
@@ -78,7 +78,7 @@
         - TITer
     * subgraph
         - xERTE
-4. Enrich quadruple-level embedding with textual data
+4. Enrich quadruple-level embedding with textual data -> ***Object** and **Relation** prediction*
     * Glean (use word graph from texual data to enrich entity & relation embedding)
     * CMF (fuse multi-level contextual information into relation embedding)
     * ECOLA (tranformer-based fusion for text & quadruple)
